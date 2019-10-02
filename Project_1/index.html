@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Project 1</title>
+</head>
+
+<body>
+    <header>
+        <h1>NIM</h1>
+        <p>don't be the last</p>
+    </header>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3 playerone-name">
+                <p class="starter" id="output"></p>
+            </div>
+            <div class="col-1 playerone-score">
+                <p class="starter3" id="output3"></p>
+            </div>
+            <div class="col-4 space">
+                <input type="button" class="mainbutt" id="startbutt" value="Let's settle the score" onclick="clickStart()">
+            </div>
+            <div class="col-1 playertwo-score">
+                <p class="starter4" id="output4"></p>
+            </div>
+            <div class="col-3 playertwo-name">
+                <p class="starter2" id="output2"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+            <input class="displayinput" id="input" placeholder="Enter Player 1 Name"/>
+            <input class="displayinput" id="input2" placeholder="Enter Player 2 Name"/>
+    </div>
+
+
+
+<!--     <script>
+      document.querySelector('#input').addEventListener('change', function(event){
+        var currentInput = event.target.value;
+        var result = inputHappened(currentInput);
+        display( result );
+      });
+      var display = function( data ){
+        var output = document.querySelector('#output');
+        output.innerText = data;
+      }
+    </script> -->
+
+<!--     <input class="nameinput" if="input1" placeholder="Enter Player 1 Name"/> -->
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

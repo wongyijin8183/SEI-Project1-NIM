@@ -1,0 +1,119 @@
+body{
+	font-family: helvetica;
+	text-align: center;
+
+}
+
+h1{
+	text-align: center;
+	margin: 0 auto;
+}
+
+header{
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.row1butt, .row2butt, .row3butt, .row4butt{
+	border:none;
+}
+
+.playerone-name,.playerone-score,.playertwo-name,.playertwo-score {
+	font-size: 30px;
+}
+
+.nameinput{
+	display: block;
+	width: 25%;
+	font-size: 20px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#startbutt{
+	width: 100%;
+	font-size: 20px;
+	border-radius: 3px;
+	margin-top: 7px;
+	margin-bottom: 20px;
+
+}
+
+.mainbutt{
+	width: 100%;
+	font-size: 20px;
+	border-radius: 3px;
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+
+.nextbutt{
+	width: 100%;
+	font-size: 20px;
+	border-radius: 3px;
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+
+.button{
+	margin: 0px 30px 0px 30px;
+	font-size: 30px;
+}
+
+.stick{
+	margin: 0px 5px 0px 5px;
+	font-size: 30px;
+	border: none;
+}
+
+.default{
+	margin: 0px 5px 0px 5px;
+	font-size: 30px;
+	border: none;
+}
+
+.player1{
+	margin: 0px 5px 0px 5px;
+	font-size: 30px;
+	border: none;
+	color: red;
+}
+
+.player2{
+	margin: 0px 5px 0px 5px;
+	font-size: 30px;
+	border: none;
+	color: blue;
+}
+
+
+.container{
+
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0px auto;
+}
+
+.boardrow{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0px auto;
+}
+
+.hideinput{
+	display: none;
+}
+
+.displayinput{
+	display: inline-block;
+	width: 25%;
+	font-size: 20px;
+	margin: 20px auto;
+	text-align: center;
+}
